@@ -1,0 +1,285 @@
+$date
+	Tue Nov 26 21:43:44 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module main $end
+$var wire 1 ! exit $end
+$var wire 1 " entry $end
+$var wire 4 # car_count [3:0] $end
+$var reg 1 $ a $end
+$var reg 1 % b $end
+$var reg 1 & clk $end
+$var reg 1 ' rst $end
+$scope module cc $end
+$var wire 1 ' rst $end
+$var wire 1 " inc $end
+$var wire 1 ! dec $end
+$var parameter 32 ( size $end
+$var reg 4 ) count [3:0] $end
+$upscope $end
+$scope module oc $end
+$var wire 1 $ a $end
+$var wire 1 % b $end
+$var wire 1 & clk $end
+$var wire 1 ' rst $end
+$var parameter 3 * ENTRY $end
+$var parameter 3 + EXIT $end
+$var parameter 3 , MOVING $end
+$var parameter 3 - NO_OBJECT $end
+$var reg 3 . current_state [2:0] $end
+$var reg 1 " enter $end
+$var reg 1 ! exit $end
+$var reg 3 / next_state [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b0 -
+b10 ,
+b11 +
+b1 *
+b100 (
+$end
+#0
+$dumpvars
+bx /
+bx .
+bx )
+0'
+0&
+0%
+0$
+bx #
+0"
+0!
+$end
+#2
+1&
+#4
+0&
+#5
+b0 #
+b0 )
+b0 /
+b0 .
+1'
+#6
+1&
+#8
+0&
+#10
+0'
+1&
+#12
+0&
+#14
+1&
+#16
+0&
+#18
+1&
+#20
+b1 /
+1$
+0&
+#22
+b1 .
+1&
+#24
+0&
+#26
+1&
+#28
+0&
+#30
+b1 #
+b1 )
+1"
+b10 /
+1%
+1&
+#32
+0&
+#34
+0"
+b10 .
+1&
+#36
+0&
+#38
+1&
+#40
+b1 /
+0$
+0&
+#42
+b0 /
+b1 .
+1&
+#44
+0&
+#46
+b11 /
+b0 .
+1&
+#48
+0&
+#50
+b0 /
+0%
+b11 .
+1&
+#52
+0&
+#54
+b0 .
+1&
+#56
+0&
+#58
+1&
+#60
+b11 /
+1%
+0&
+#62
+b11 .
+1&
+#64
+0&
+#66
+1&
+#68
+0&
+#70
+b0 #
+b0 )
+1!
+b10 /
+1$
+1&
+#72
+0&
+#74
+0!
+b10 .
+1&
+#76
+0&
+#78
+1&
+#80
+b11 /
+0%
+0&
+#82
+b0 /
+b11 .
+1&
+#84
+0&
+#86
+b1 /
+b0 .
+1&
+#88
+0&
+#90
+b0 /
+0$
+b1 .
+1&
+#92
+0&
+#94
+b0 .
+1&
+#96
+0&
+#98
+1&
+#100
+b1 /
+1$
+0&
+#102
+b1 .
+1&
+#104
+0&
+#106
+1&
+#108
+0&
+#110
+b1 #
+b1 )
+1"
+b10 /
+1%
+1&
+#112
+0&
+#114
+0"
+b10 .
+1&
+#116
+0&
+#118
+1&
+#120
+b1 /
+0$
+0&
+#122
+b0 /
+b1 .
+1&
+#124
+0&
+#126
+b11 /
+b0 .
+1&
+#128
+0&
+#130
+b11 .
+1&
+#132
+0&
+#134
+1&
+#136
+0&
+#138
+1&
+#140
+0&
+#142
+1&
+#144
+0&
+#146
+1&
+#148
+0&
+#150
+1&
+#152
+0&
+#154
+1&
+#156
+0&
+#158
+1&
+#160
+0&
