@@ -1,4 +1,4 @@
-module alternative_debouncer(out, in, clk, rst);
+//module alternative_debouncer(out, in, clk, rst);
 
 input in, clk, rst;
 output reg out;
@@ -58,7 +58,7 @@ case (state_reg)
 endcase
 end
 
-endmodule
+//endmodule UNCOMMENT IF NOT BOT BITCH
 
 
 module main();

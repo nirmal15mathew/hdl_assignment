@@ -1,4 +1,4 @@
-module dual_edge_detector(tick, signal, clk, rst);
+//module dual_edge_detector(tick, signal, clk, rst);
 
 input clk, rst, signal;
 output reg tick;
@@ -49,10 +49,10 @@ case (state_current)
 endcase
 end
 
-endmodule
+//endmodule UNCOMMENT IF NOT BOT BITCH
 
 
-module dual_edge_detector_mealy(tick, signal, clk, rst);
+//module dual_edge_detector_mealy(tick, signal, clk, rst);
 
 input signal, clk, rst;
 output reg tick;
@@ -84,7 +84,7 @@ next_state = state_current;
     endcase
 end
 
-endmodule
+//endmodule UNCOMMENT IF NOT BOT BITCH
 
 
 

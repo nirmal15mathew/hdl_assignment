@@ -1,4 +1,4 @@
-module occupancy_counter(enter, exit, a, b, clk, rst);
+//module occupancy_counter(enter, exit, a, b, clk, rst);
 
 input a, b, clk, rst;
 output reg enter, exit;
@@ -52,7 +52,7 @@ exit = 1'b0;
 endcase
 end
 
-endmodule
+//endmodule UNCOMMENT IF NOT BOT BITCH
 
 
 module car_counter#(parameter size=4)(count, inc, dec, rst);
